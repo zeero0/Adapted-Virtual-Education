@@ -3,6 +3,7 @@ package com.zeeroapps.hackathonapp.activities;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,5 +31,11 @@ public class VideoDetailsActivity extends AppCompatActivity {
             tvVideoDescr.setText(intent.getStringExtra("video_descr"));
         }
 
+    }
+
+    public void onClickThumbnail(View v){
+        Intent intent = new Intent(VideoDetailsActivity.this, FullScreenVideoActivity.class);
+        intent.putExtra("video_url", "");
+        startActivity(intent);
     }
 }

@@ -2,6 +2,7 @@ package com.zeeroapps.hackathonapp.activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +25,16 @@ public class FullScreenVideoActivity extends Activity {
         setContentView(R.layout.activity_full_screen_video);
 
         VideoView videoView = (VideoView)findViewById(R.id.videoView);
-        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() +"/"+R.raw.autism));
+        videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.autism));
+        SharedPreferences sp = getSharedPreferences(getString(R.string.my_sp), MODE_PRIVATE);
+        String curLang = sp.getString(getString(R.string.my_sp_language), null);
+        if (curLang != null){
+            if (curLang.equals("ur")){
+                videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() +"/"+R.raw.autism_ur));
+            }else {
+                videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() +"/"+R.raw.autism));
+            }
+        }
         videoView.setMediaController(new MediaController(this));
         videoView.requestFocus();
         videoView.start();

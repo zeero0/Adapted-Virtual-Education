@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".LanguageActivity">
+        <activity android:name=".activities.LanguageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,8 +21,9 @@
             android:screenOrientation="landscape" />
         <activity android:name=".activities.VideoDetailsActivity" />
         <activity android:name=".activities.MainActivity" />
-        <activity android:name=".DiseaseActivity" />
-        <activity android:name=".LearningActivity"></activity>
+        <activity android:name=".activities.DiseaseActivity" />
+        <activity android:name=".activities.LearningActivity" />
+        <activity android:name=".activities.SurveyActivity"></activity>
     </application>
 
 </manifest>

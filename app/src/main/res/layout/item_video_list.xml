@@ -4,14 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/activity_margin"
-    android:layout_marginRight="@dimen/activity_margin"
-    android:layout_marginBottom="5dp">
+    android:layout_marginRight="@dimen/activity_margin">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp">
+        android:layout_height="50dp">
 
         <TextView
             android:id="@+id/tvVideoName"
@@ -19,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:textColor="@color/clr_text_a"
+            android:paddingLeft="10dp"
             android:textSize="@dimen/size_text_a"
             android:text="@string/video_name"/>
 
@@ -28,8 +26,14 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:paddingRight="10dp"
             android:textSize="@dimen/size_text_a"
             android:text="@string/video_duration"/>
-
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/clr_line" />
     </RelativeLayout>
 </android.support.v7.widget.CardView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "772701445260",
+    "firebase_url": "https://adapted-virtual-education.firebaseio.com",
+    "project_id": "adapted-virtual-education",
+    "storage_bucket": "adapted-virtual-education.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772701445260:android:dd8c1c19b60ceb29",
+        "android_client_info": {
+          "package_name": "com.zeeroapps.hackathonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772701445260-06g0p52t77h1696qhocnucm9alesvate.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeeroapps.hackathonapp",
+            "certificate_hash": "97a7a849fa8a49820bd34f3f9b3184b85ec0c8a1"
+          }
+        },
+        {
+          "client_id": "772701445260-03p7mrv8etqiiopberm5d5mk5vjnjqd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByV7e-_ckrV1wV1MEMe9gx6lPZlLHJAAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772701445260-03p7mrv8etqiiopberm5d5mk5vjnjqd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

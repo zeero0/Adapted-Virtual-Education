@@ -7,10 +7,12 @@
     <string name="intro_video">What is Autism?</string>
     <string name="video_name">VIDEO - 1</string>
     <string name="video_duration">4:34</string>
-    <string name="video_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
-
+    <string name="video_description">Autism is a mentally condition from early childhood in which the challenged people face mainly 3 problems.
+        \n1) Communication with others
+        \n2) Poor social skills
+        \n3) Doing the same things repeatedly</string>
     <string name="select_lang">Select a language</string>
-    <string name="select_challenge">Select a challenge</string>
+    <string name="select_challenge">Select a language</string>
     <string name="select_course">Select a course</string>
     <string name="chall_a">Autism</string>
     <string name="chall_b">Intellectual Challenge</string>
@@ -25,5 +27,12 @@
     <string name="channge_challenge">Change Challenge</string>
     <string name="feedback">Feedback</string>
     <string name="identify_challenge">Identify the challenge</string>
+
+    <string name="survey_question_one">Is the child laughing or crying for no apperent reasons?</string>
+    <string name="survey_question_two">Is the child less responsive to request?</string>
+    <string name="survey_question_three">Is the child unable to follow the instructions?</string>
+    <string name="survey_question_four">Do the child prefer for being alone?</string>
+    <string name="survey_title">Help: Select a challenge type</string>
+    <string name="survey_description">If you are unable to identify challenge type of the child then complete the form below to automatically get suggested videos for your child.</string>
 
 </resources>

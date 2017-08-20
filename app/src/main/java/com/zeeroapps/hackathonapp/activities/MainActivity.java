@@ -2,6 +2,7 @@ package com.zeeroapps.hackathonapp.activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -29,12 +30,18 @@ public class MainActivity extends Activity implements VideoAdapter.OnVideoChange
     private VideoAdapter customAdapter;
 
     String videoURL;
-    String[] videoNames = {"VIDEO 1", "VIDEO 2", "VIDEO 3", "VIDEO 4", "VIDEO 5"};
-    String[] videoDurations = {"4:24", "5:11", "9:00", "3:42", "7:30"};
+    String[] videoNames = {"What is Autism? DETAILED",
+            "Prepare a quiet environment where...",
+            "Be flexible; your schedule must be...",
+            "Regularly teach clear, simple rules...",
+            "When inappropriate behavior occurs...",
+            "Do not be discouraged if the child..."};
+    String[] videoDurations = {"4:24", "5:11", "9:00", "3:42", "7:30", "3:20"};
     String[] videosDescr = {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "laboris nisi ut aliquip ex ea commodo consequat.",
+            "laboris nisi ut aliquip ex...",
             "sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco "};
 
     @Override
@@ -77,7 +84,15 @@ public class MainActivity extends Activity implements VideoAdapter.OnVideoChange
     }
 
     public void onClickLanguageButton(View v){
-        LanguageSettings.changeLanguage(this, "ur");
+        SharedPreferences sp = getSharedPreferences(getString(R.string.my_sp), MODE_PRIVATE);
+        String curLang = sp.getString(getString(R.string.my_sp_language), null);
+        if (curLang != null){
+            if (curLang.equals("ur")){
+                LanguageSettings.changeLanguage(this, "en");
+            }else  {
+                LanguageSettings.changeLanguage(this, "ur");
+            }
+        }
         this.recreate();
     }
 

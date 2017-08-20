@@ -1,7 +1,11 @@
 package com.zeeroapps.hackathonapp.utils;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
+
+import com.zeeroapps.hackathonapp.R;
+
 import java.util.Locale;
 
 /**
@@ -17,5 +21,8 @@ public class LanguageSettings {
         Configuration config = new Configuration();
         config.locale = locale;
         context.getResources().updateConfiguration(config, context.getResources().getDisplayMetrics());
+
+        SharedPreferences sp = context.getSharedPreferences(context.getString(R.string.my_sp), Context.MODE_PRIVATE);
+        sp.edit().putString(context.getString(R.string.my_sp_language), language).commit();
     }
 }

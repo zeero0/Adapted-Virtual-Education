@@ -1,9 +1,37 @@
 <resources>
     <string name="app_name">Hackathon App</string>
+    <string name="my_sp">MY_SP</string>
+    <string name="my_sp_language">MY_LANGUAGE</string>
+    <string name="my_sp_challenge">MY_LANGUAGE</string>
 
-    <string name="intro_video">تعارف</string>
+    <string name="intro_video">آٹزم کیا ہے</string>
     <string name="video_name">ویڈیو - 1</string>
     <string name="video_duration">4:34</string>
-    <string name="video_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="select_lang">زبان منتخب کریں</string>
+    <string name="select_challenge">زبان منتخب کریں</string>
+    <string name="select_course">نصاب منتخب کریں</string>
+    <string name="chall_a">آٹزم</string>
+    <string name="chall_b">دانشورانہ چیلنج</string>
+    <string name="chall_c">سیکھنا چیلنج</string>
+    <string name="chall_d">شائفورینیا</string>
+
+    <string name="course_a">دیکھ بھال</string>
+    <string name="course_b">پڑھنا</string>
+    <string name="course_c">لکھنا</string>
+    <string name="course_d">ریاضی</string>
+    <string name="resources">وسائل</string>
+    <string name="channge_challenge">چیلنج تبدیل کریں</string>
+    <string name="feedback">اپنی رائے دیں</string>
+    <string name="identify_challenge">چیلنج کی شناخت کریں</string>
+
+    <string name="survey_question_one">کیا بچے کو کوئی واضح وجوہات نہیں ہنسی یا رو رہی ہے؟</string>
+    <string name="survey_question_two">کیا بچہ کم درخواست کی ذمہ دار ہے؟</string>
+    <string name="survey_question_three">کیا بچے ہدایات پر عمل کرنے میں قاصر ہیں؟</string>
+    <string name="survey_question_four">کیا بچہ اکیلے ہونے کی ترجیح دیتا ہے؟</string>
+
+    <string name="survey_description">چیلنج کی قسم منتخب کریں
+یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک ٹیسٹ ہے. یہ ایک ٹیسٹ ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے. یہ ایک امتحان ہے.</string>
+
+    <string name="video_description">آپ کے ساتھ ساتھ، آپ کی مدد کرنے کے لئے، مشق کرنے کے بعد، آپ کو کسی بھی وقت کے طور پر استعمال کرنے کے لئے اور آپ کے کمپیوٹر کی حفاظت کے لئے استعمال کیا جاتا ہے. آپ کے لئے، آپ کے مشقوں کی مشق، آپ کو آپ کی صحت کے لئے استعمال کرنے کے لئے تیار ہے. ویوٹیٹیٹ مخٹ مضمون کالم ڈیولور ایو فیوچر نوڈل پیراٹور میں مبتلا ہونے والے دوپہر کی بیماری کا شکار. غیر قانونی طور پر غیر معمولی کارکردگی کا سامنا کرنا پڑتا ہے، اس کی مدد کرنے کے لئے کسی بھی قسم کی حرکت پذیری کی شناخت کی شناخت کی شناخت ہے.</string>
 
 </resources>

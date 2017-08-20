@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_friends"
+    tools:context="com.zeeroapps.hackathonapp.activities.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tint="#FFF"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/ic_back"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickLanguageButton"
+            android:text="En / ار"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvMiddle"
+        android:layout_below="@id/layoutToolbar"
+        android:layout_margin="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:id="@+id/ll" >
+
+            <TextView
+                android:id="@+id/tvSurveyTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/clr_text_a"
+                android:text="@string/survey_title"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_survey_intro"
+                android:layout_margin="3dp"
+                android:text="@string/survey_description"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#b7b7b7" />
+
+            <Button
+                android:id="@+id/survey_question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is the child laughing or crying for nor \n
+                apperent reasons?"
+                android:textSize="12sp"
+                android:background="@drawable/button_selector_green"
+                android:gravity="center"
+                android:layout_alignTop="@+id/person_age"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#b7b7b7" />
+
+            <Button
+                android:id="@+id/survey_question_two"
+                android:layout_width="match_parent"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/button_selector_green"
+                android:text="Is the child less responsive to request?" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8d8dc" />
+
+            <Button
+                android:id="@+id/survey_question_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is the child unable to follow the instructions?"
+                android:background="@drawable/button_selector_green"
+                android:textSize="12sp"
+                android:gravity="center" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#b7b7b7" />
+
+            <Button
+                android:id="@+id/survey_question_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="12sp"
+                android:background="@drawable/button_selector_green"
+                android:gravity="center"
+                android:text="Do the child prefer for being alone?" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#b7b7b7" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#20c620"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

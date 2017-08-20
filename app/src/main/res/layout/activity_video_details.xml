@@ -23,9 +23,9 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:onClick="onClickThumbnail"
-                android:layout_height="250dp"
+                android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/into_pic"/>
+                android:src="@drawable/autism_thumb"/>
 
             <TextView
                 android:id="@+id/tvSelectedVideoDur"

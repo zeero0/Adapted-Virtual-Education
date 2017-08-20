@@ -71,7 +71,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
-                android:background="#404040" />
+                android:background="@color/clr_line" />
 
             <Button
                 android:id="@+id/btnUrdu"
@@ -86,7 +86,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
-                android:background="#d8d8dc" />
+                android:background="@color/clr_line" />
 
             <Button
                 android:id="@+id/btnPunj"
@@ -101,7 +101,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
-                android:background="#404040" />
+                android:background="@color/clr_line" />
 
             <Button
                 android:id="@+id/btnPushto"
@@ -117,7 +117,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
-                android:background="#404040" />
+                android:background="@color/clr_line" />
 
             <Button
                 android:id="@+id/btnSindhi"
@@ -133,7 +133,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
-                android:background="#404040" />
+                android:background="@color/clr_line" />
 
             <Button
                 android:id="@+id/btnBalochi"

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapted-Virtual-Education.iml" filepath="$PROJECT_DIR$/Adapted-Virtual-Education.iml" />
       <module fileurl="file://$PROJECT_DIR$/HackathonApp.iml" filepath="$PROJECT_DIR$/HackathonApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
