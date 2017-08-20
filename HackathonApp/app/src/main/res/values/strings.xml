@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hackathon App</string>
+    <string name="my_sp">MY_SP</string>
+    <string name="my_sp_language">MY_LANGUAGE</string>
+    <string name="my_sp_challenge">MY_LANGUAGE</string>
+
+    <string name="intro_video">What is Autism?</string>
+    <string name="video_name">VIDEO - 1</string>
+    <string name="video_duration">4:34</string>
+    <string name="video_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+
+    <string name="select_lang">Select a language</string>
+    <string name="select_challenge">Select a challenge</string>
+    <string name="select_course">Select a course</string>
+    <string name="chall_a">Autism</string>
+    <string name="chall_b">Intellectual Challenge</string>
+    <string name="chall_c">Learning Challenge</string>
+    <string name="chall_d">Schizophrenia</string>
+
+    <string name="course_a">Taking Care</string>
+    <string name="course_b">Reading</string>
+    <string name="course_c">Writing</string>
+    <string name="course_d">Maths</string>
+    <string name="resources">Resources</string>
+    <string name="channge_challenge">Change Challenge</string>
+    <string name="feedback">Feedback</string>
+    <string name="identify_challenge">Identify the challenge</string>
+
+</resources>

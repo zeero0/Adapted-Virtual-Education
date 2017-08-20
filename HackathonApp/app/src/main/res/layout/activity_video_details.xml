@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_friends"
+    tools:context="com.zeeroapps.hackathonapp.activities.VideoDetailsActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvVideoDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:onClick="onClickThumbnail"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/into_pic"/>
+
+            <TextView
+                android:id="@+id/tvSelectedVideoDur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20 min"/>
+
+            <TextView
+                android:id="@+id/tvSelectedVideoName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/intro_video"
+                android:textColor="@color/clr_text_a"
+                android:textSize="@dimen/size_text_a"/>
+
+            <TextView
+                android:id="@+id/tvSelectedVideoDescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/video_description"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

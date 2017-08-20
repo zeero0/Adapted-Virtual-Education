@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hackathon App</string>
+
+    <string name="intro_video">تعارف</string>
+    <string name="video_name">ویڈیو - 1</string>
+    <string name="video_duration">4:34</string>
+    <string name="video_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+</resources>

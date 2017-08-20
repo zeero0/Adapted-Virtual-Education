@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_friends"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvTop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="@dimen/activity_margin"
+        android:backgroundTint="@color/clr_purple">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="En / ار"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/select_lang"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_below="@+id/cvTop"
+        android:id="@+id/cv_item_live_update">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:id="@+id/ll" >
+
+            <Button
+                android:id="@+id/btnEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="English"
+                android:background="@drawable/button_selector_green"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="#404040"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/person_age"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/btnUrdu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/button_selector_green"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#404040"
+                android:text="اردو" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8d8dc" />
+
+            <Button
+                android:id="@+id/btnPunj"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="پنجابی"
+                android:background="@drawable/button_selector_green"
+                android:textColor="#404040"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/btnPushto"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:background="@drawable/button_selector_green"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#404040"
+                android:text="پښتو" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/btnSindhi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:background="@drawable/button_selector_green"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#404040"
+                android:text="سنڌي‎" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/btnBalochi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:background="@drawable/button_selector_green"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#404040"
+                android:text="بلؤچی" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

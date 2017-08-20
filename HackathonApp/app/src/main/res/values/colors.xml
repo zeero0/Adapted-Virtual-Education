@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="clr_text_a">#404040</color>
+    <color name="clr_purple">#ba77ff</color>
+    <color name="clr_purple_dark">#a05de6</color>
+
+    <color name="clr_line">#a1a1a1</color>
+</resources>
